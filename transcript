@@ -1,0 +1,192 @@
+# vsim -lib work -c tester3 
+# Start time: 02:15:49 on Dec 09,2016
+# Loading sv_std.std
+# Loading work.tester3
+# Loading work.DataPath
+# Loading work.mux2to1B32
+# Loading work.mux4to1B4
+# Loading work.mux4to1B1
+# Loading work.enabledRegister
+# Loading work.mux4to1B32
+# Loading work.adder
+# Loading work.instructionMemory2016
+# Loading work.Control
+# Loading work.mux4to1B5
+# Loading work.registerFile
+# Loading work.mux2to1B5
+# Loading work.ALU
+# Loading work.dataMemory
+# I1 : 00000000 
+# I2 : 00000008 
+# added : 00000008 
+# mux1out : 00000008 
+# lw : 1 
+# Out: 02 
+# WD3 : 0000000f
+# WE3 : 1
+# register 0 00000000 
+# register 1 00000000 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 01 
+# RD2 : 00000000 
+# SrcA : 00000000 
+# SrcB : 00000008 
+# ALU Result : 00000008 
+# ALU Control : 2 
+# Result : 0000000f
+# RD : 0000000f
+# PC Address : 00000000
+# PC D: 00000004 
+# Instruction : 8c010008
+# reg write enable 1
+# read : 0000000f
+# addr : 00000008
+# I1 : 00000000 
+# I2 : 00000010 
+# added : 00000010 
+# mux1out : 00000000 
+# lw : 0 
+# Out: 01 
+# WD3 : 0000000c
+# WE3 : 0
+# register 0 00000000 
+# register 1 0000000f 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 01 
+# RD2 : 00000000 
+# SrcA : 00000000 
+# SrcB : 00000010 
+# ALU Result : 00000000 
+# ALU Control : 1 
+# Result : 0000000c
+# RD : 0000000c
+# PC Address : 00000004
+# PC D: 00000008 
+# Instruction : ac010010
+# reg write enable 0
+# read : 0000000c
+# addr : 00000000
+# Writing address          0 with          0
+# I1 : 00000000 
+# I2 : 00000001 
+# added : 00000001 
+# mux1out : 00000001 
+# lw : 1 
+# Out: 02 
+# WD3 : 00000000
+# WE3 : 1
+# register 0 00000000 
+# register 1 0000000f 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 00 
+# RD2 : 00000000 
+# SrcA : 00000000 
+# SrcB : 00000001 
+# ALU Result : 00000001 
+# ALU Control : 2 
+# Result : 00000000
+# RD : 00000000
+# PC Address : 00000008
+# PC D: 0000000c 
+# Instruction : 8c200001
+# reg write enable 1
+# read : 00000000
+# addr : 00000001
+# I1 : 00000000 
+# I2 : 00000005 
+# added : 00000005 
+# mux1out : 00000005 
+# WD3 : 0000000a
+# WE3 : 1
+# register 0 00000000 
+# register 1 0000000f 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 00 
+# RD2 : 00000000 
+# SrcA : 00000000 
+# SrcB : 00000005 
+# ALU Result : 00000005 
+# ALU Control : 2 
+# Result : 0000000a
+# RD : 0000000a
+# PC Address : 0000000c
+# PC D: 00000010 
+# Instruction : 8c200005
+# reg write enable 1
+# read : 0000000a
+# addr : 00000005
+# I1 : 0000000a 
+# I2 : 00000000 
+# added : 0000000a 
+# mux1out : 0000000a 
+# WD3 : 0000000f
+# WE3 : 1
+# register 0 0000000a 
+# register 1 0000000f 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 01 
+# RD2 : 00000000 
+# SrcA : 0000000a 
+# SrcB : 00000000 
+# ALU Result : 0000000a 
+# ALU Control : 2 
+# Result : 0000000f
+# RD : 0000000f
+# PC Address : 00000010
+# PC D: 00000014 
+# Instruction : 8c010000
+# reg write enable 1
+# read : 0000000f
+# addr : 0000000a
+# I1 : 0000000a 
+# I2 : 00000004 
+# added : 0000000e 
+# mux1out : 0000000e 
+# WD3 : 00000063
+# WE3 : 1
+# register 0 0000000a 
+# register 1 0000000f 
+# register 2 00000000 
+# register 3 00000000 
+# register 4 00000000 
+# register 5 00000000 
+# register 6 00000000 
+# register 7 00000000 
+# A2 : 02 
+# RD2 : 0000000f 
+# SrcA : 0000000a 
+# SrcB : 00000004 
+# ALU Result : 0000000e 
+# ALU Control : 2 
+# Result : 00000063
+# RD : 00000063
+# PC Address : 00000014
+# PC D: 00000018 
+# Instruction : 8c020004
+# reg write enable 1
+# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.

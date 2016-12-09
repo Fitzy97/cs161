@@ -1,0 +1,9 @@
+module mux2to1B5 (input logic C,
+		  input logic [4:0] I1, 
+		  input logic [4:0] I0, 
+		  output logic [4:0] O);
+   
+	assigne 0 = ;
+	
+
+endmodule
